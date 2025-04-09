@@ -13,7 +13,7 @@ from exception.invalid_email_exception import InvalidEmailException
 class DatabaseManager:
 
     def __init__(self):
-        self.conn = DBConnUtil.get_connection(r'C:/Users/anush/PycharmProjects/Career Hub/util/db.properties')
+        self.conn = DBConnUtil.get_connection(r'C:/Users/anush/PycharmProjects/Career Hub/Code/util/db.properties')
         self.cursor = self.conn.cursor()
 
     def initialize_database(self):

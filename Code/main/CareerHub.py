@@ -7,7 +7,6 @@ from exception.deadline_over_exception import DeadlinePassedException
 from entity.application import Application
 from datetime import datetime
 
-
 def main():
     db = DatabaseManager()
     db.initialize_database()
